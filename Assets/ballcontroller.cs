@@ -8,12 +8,11 @@ public class ballcontroller : MonoBehaviour
     void Start()
     {
        Rigidbody rb = GetComponent<Rigidbody>();
-
-    }
+        transform.Translate(.005f * Random
 
     // Update is called once per frame
     void Update()
     {
-        
+   
     }
 }
