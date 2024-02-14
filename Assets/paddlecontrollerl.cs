@@ -16,19 +16,19 @@ public class paddlecontrollerl : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             transform.Translate(0f, 0.020f, 0f);
-            if (transform.position.y > 2.5f)
+            if (transform.position.y > 2.66f)
             {
 
-                transform.position = new Vector3(transform.position.x, 2.5f, 0f);
+                transform.position = new Vector3(transform.position.x, 2.66f, 0f);
             }
         }
         if (Input.GetKey(KeyCode.S))
         {
-            transform.Translate(0f, -0.20f, 0f);
+            transform.Translate(0f, -0.018f, 0f);
             if (transform.position.y < -2.66f)
             {
 
-                transform.position = new Vector3(transform.position.x, -2.5f, 0f);
+                transform.position = new Vector3(transform.position.x, -2.66f, 0f);
             }
 
         }

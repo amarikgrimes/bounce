@@ -15,20 +15,20 @@ public class paddlecontroller : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.UpArrow))
         {
-            transform.Translate(0f, 0.015f, 0f);
-            if (transform.position.y > 2.5f)
+            transform.Translate(0f, 0.020f, 0f);
+            if (transform.position.y > 2.66f)
             {
 
-                transform.position = new Vector3(transform.position.x, 2.5f, 0f);
+                transform.position = new Vector3(transform.position.x, 2.66f, 0f);
             }
         }
         if (Input.GetKey(KeyCode.DownArrow))
         {
-            transform.Translate(0f, -0.015f, 0f);
-            if (transform.position.y < -2.5f)
+            transform.Translate(0f, -0.020f, 0f);
+            if (transform.position.y < -2.66f)
             {
 
-                transform.position = new Vector3(transform.position.x, -2.5f, 0f);
+                transform.position = new Vector3(transform.position.x, -2.66f, 0f);
             }
 
         }

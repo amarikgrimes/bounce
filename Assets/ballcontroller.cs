@@ -10,7 +10,7 @@ public class ballcontroller : MonoBehaviour
     void Start()
     {
         Rigidbody2D rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(Random.Range(-8f, 8), Random.Range(-8f, 8f));
+        rb.velocity = new Vector2(Random.Range(-11f, 11), Random.Range(-11f, 11f));
     }
 
     // Update is called once per frame
